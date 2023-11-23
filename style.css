@@ -29,3 +29,16 @@ button {
   margin: 10px 0px;
   position: relative;
 }
+button:focus {
+  outline: none;
+}
+
+button .circle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
