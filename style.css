@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #000;
   font-family: "Young serif";
   display: flex;
   flex-direction: column;
@@ -13,4 +14,18 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+button {
+  background-color: purple;
+  color: #fff;
+  border: 1px solid purple;
+  padding: 20px 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10px 0px;
+  position: relative;
 }
